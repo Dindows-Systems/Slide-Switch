@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Switch Build</title>
+<!--[if IE 9 ]><style type="text/css">
+        @import url(css/jquery.switch.css);
+        </style><![endif]-->
+    </head>
+    <body>
+        <h1>Div Switch Build</h1>
+        <p>Building out the switch skin</p>
+        
+        <label for="switchgroup">Auto Translation</label>
+        <input type="radio" name="switchgroup" class="slideswitch" id="switchon" value="on" rel="on">
+        <input type="radio" name="switchgroup" id="switchoff" value="off" rel="off" checked="checked">
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="js/mylibs/jquery.switch.js"></script>
+        
+        <script type="text/javascript">
+        $(function(){
+            $('.slideswitch').slideSwitch();
+        });
+        </script>
+    </body>
+</html>
